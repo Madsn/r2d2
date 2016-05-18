@@ -54,7 +54,7 @@ module.exports = (robot) ->
   #   , 60 * 1000
   #
   # annoyIntervalId = null
-  #
+  
   # robot.respond /annoy me/, (res) ->
   #   if annoyIntervalId
   #     res.send "AAAAAAAAAAAEEEEEEEEEEEEEEEEEEEEEEEEIIIIIIIIHHHHHHHHHH"
@@ -104,3 +104,5 @@ module.exports = (robot) ->
   # robot.respond /sleep it off/i, (res) ->
   #   robot.brain.set 'totalSodas', 0
   #   res.reply 'zzzzz'
+  # robot.catchAll (res) ->
+  #   res.reply 'Hello, I am R2D2!'
